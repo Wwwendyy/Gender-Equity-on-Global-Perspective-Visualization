@@ -1,0 +1,24 @@
+.pieChartContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 10px;
+    text-align: left; /* 标题左对齐 */
+}
+
+.chartWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chartSvg {
+    display: block;
+}
+
+.chartPlaceholder {
+    display: block;
+}
